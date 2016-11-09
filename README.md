@@ -90,37 +90,3 @@ O Trabalho deverá ser entregue até a data marcada, até 23:59, por e-mail. Voc
 
 
 
-
-## INSTRUÇÕES DE PREPARAÇÃO DE AMBIENTE DE DESENVOLVIMENTO E USO DO GIT
-
-O projeto deverá ser feito utilizando o SCV (Sistema de Controle de Versão) Git hospedado no GitHub. Para isso o recomendado é seguir os seguintes passos:
-
-0. Primeiro é necessário se cadastrar no GitHub. Cada membro da equipe deve se cadastrar. Um dos membros (o que for fazer o fork, vide passo 1) deverá compartilhar o projeto para escrita ou administrar.
-
-1. Criar um fork. Fazer um fork (do inglês, "garfo") de um projeto é pegar um projeto de código aberto existente e copiá-lo como um projeto próprio. Assim, é possível modificá-lo como se fosse seu próprio projeto. Quando você faz um fork de um projeto existente, vocês está criando uma nova ramificação dele.
-	1. No GitHub, entre na página do projeto e clique em Fork.
-	2. Pronto! Você já criou seu projeto. Explore a página do GitHub do seu projeto.
-	3. Compartilhe o projeto com seu colega: No GitHub, no canto superior direito da página do projeto, clique em Settings. Vá em Collaborators e insira o nome de usuário de seu colega. Ele receberá um email aceitando o convite para ser colaborador do projeto, e poderá fazer 'push', como explicado abaixo.
-
-2. Clone seu projeto.
-	1. Na página do seu projeto "forkado", clique em Clone. Um comando aparecerá. Copie e cole no terminal. Se não tiver o Git instalado ainda, instale no Linux com 'sudo apt-get install git -y', e no Windows por meio de instalador. 
-		1. Se estiver usando TortoiseGit no Windows, clique com o botão direito na pasta e procure a opção Clone. Cole o endereço do projeto onde for pedido. O mesmo se aplica aos demais comandos do Git: procure o equivalente na interface gráfica.
-	2. Pronto! Seu repositório com o projeto já está em sua máquina.
-
-3. Trabalhe no projeto
-	1. No decorrer do projeto, é importante dar commit (consolidar) nas mudanças realizadas. Prefira dar commit sempre que você adiciona algo relevante, mesmo que seja mínimo.
-		1. Primeiro, entre na pasta raiz de seu projeto e rode o comando 'git add --all'. Este comando fará o Mercurial considerar todas as mudanças realizadas no projeto.
-		2. Em seguida, rode o comando 'git commit -m "Mensagem de commit"'. Este é o comando que efetivamente fará o Commit em sua máquina (ainda não envia para o GitHub). A mensagem de commit é muito importante. Escreva nela resumidamente o que foi modificado neste último commit.
-			1. Pode ser que apareça uma mensagem dizendo para você dizer quem é você. Ele irá sugerir que você execute alguns comandos para configurar seu nome e email. Os comandos são: 'git config --global user.email "you@example.com" && git config --global user.name "Your Name"'. Depois de feito isso, tente fazer novamente o commit.
-
-	2. Após dar commit, suas alterações ainda não estarão no repositório do GitHub. É necessário fazer um Push (empurrar, "mandar pra frente"). Para isto, logo após realizar o commit, digite o comando 'git push'. Digite seu usuário e senha do GitHub. Confira se a alteração chegou no GitHub acessando a seção Commits do site.
-
-4. Trabalhando em equipe
-	1. Os commits e pushs constantes são necessários para coordenar o trabalho em equipe. Por isso, revisem o passo 3.
-	2. Quando seu colega fez um commit e push, é necessário que você puxe suas alterações. Para isso, é necessário dar um Pull (puxar). Rode o comando 'git pull'.
-	3. Pronto! As alterações do seu colega já estarão atualizadas na sua máquina e vocês estarão sincronizados.
-	4 Se houver conflito (modificações na mesma linha de código), o Git irá avisar. Dê um 'git pull'. Entre no arquivo que deu conflito. Você verá que estará marcadas as duas versões. Apague a versão incorreta, deixando do modo como o código deve ficar. Dê um 'git add --all' seguido por um commit, deixando na mensagem que foi feito um merge (mescla) manual. Dê git push.
-		
-OBS: É possível executar todas as ações (e até utilizar mais recursos visuais) por meio de uma interface gráfica para o Git, instalada separadamente. No Windows recomenda-se o TortoiseGit. No Linux existem também várias opções, como o git-cola, RabbitVCS, syntevo, etc.
-
-
