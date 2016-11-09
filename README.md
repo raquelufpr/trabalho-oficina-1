@@ -53,7 +53,7 @@ O projeto deverá ser feito utilizando o SCV (Sistema de Controle de Versão) Gi
 	3. Compartilhe o projeto com seu colega: No GitHub, no canto superior direito da página do projeto, clique em Settings. Vá em Collaborators e insira o nome de usuário de seu colega. Ele receberá um email aceitando o convite para ser colaborador do projeto, e poderá fazer 'push', como explicado abaixo.
 
 2. Clone seu projeto.
-	1. Na página do seu projeto "forkado", clique em Clone. Um comando aparecerá. Copie e cole no terminal. Se não tiver o Git instalado ainda, instale no Linux com 'sudo apt-get install git -y', e no Windows por meio de instalador. 
+	1. Na página do seu projeto "forkado", clique em Clone. Uma URL aparecerá. Escreva no terminal 'git clone [url]', colando a URL. Se não tiver o Git instalado ainda, instale no Linux com 'sudo apt-get install git -y', e no Windows por meio de instalador. 
 		1. Se estiver usando TortoiseGit no Windows, clique com o botão direito na pasta e procure a opção Clone. Cole o endereço do projeto onde for pedido. O mesmo se aplica aos demais comandos do Git: procure o equivalente na interface gráfica.
 	2. Pronto! Seu repositório com o projeto já está em sua máquina.
 
