@@ -59,7 +59,7 @@ O projeto deverá ser feito utilizando o SCV (Sistema de Controle de Versão) Gi
 
 3. Trabalhe no projeto
 	1. No decorrer do projeto, é importante dar commit (consolidar) nas mudanças realizadas. Prefira dar commit sempre que você adiciona algo relevante, mesmo que seja mínimo.
-		1. Primeiro, entre na pasta raiz de seu projeto e rode o comando 'git add --all'. Este comando fará o Mercurial considerar todas as mudanças realizadas no projeto.
+		1. Primeiro, entre na pasta raiz de seu projeto e rode o comando 'git add --all'. Este comando fará o Git considerar todas as mudanças realizadas no projeto.
 		2. Em seguida, rode o comando 'git commit -m "Mensagem de commit"'. Este é o comando que efetivamente fará o Commit em sua máquina (ainda não envia para o GitHub). A mensagem de commit é muito importante. Escreva nela resumidamente o que foi modificado neste último commit.
 			1. Pode ser que apareça uma mensagem dizendo para você dizer quem é você. Ele irá sugerir que você execute alguns comandos para configurar seu nome e email. Os comandos são: 'git config --global user.email "you@example.com" && git config --global user.name "Your Name"'. Depois de feito isso, tente fazer novamente o commit.
 
